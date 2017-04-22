@@ -1,4 +1,4 @@
-\documentclass[]{article}
+\documentclass[11pt]{article}
 \usepackage{graphicx}
 \usepackage{array}
 \usepackage{xcolor}
@@ -7,29 +7,44 @@
 \usepackage{geometry}
 \usepackage{marginnote}
 \usepackage{multicol}
+\usepackage{hyperref}
 \begin{document}
 \begin{mdframed}[backgroundcolor=black]
 ~
 \begin{center}
 \begin{Huge}
-\color{white}{\fontfamily{pbk}\selectfont Chetan}\color{white}{\fontfamily{pbk}\selectfont\textbf{ Chawla}}
+\color{white}{\fontfamily{pbk}\selectfont Chetan}\color{gray}{\fontfamily{pbk}\selectfont\textbf{Chawla}}
 \end{Huge}
 \end{center}
-\end{mdframed}
 \begin{center}
 \begin{large}
-I am not a perfectionist , but I do have the will it takes
+\color{white}\emph{I am not a perfectionist , but I do have the will it takes}
 \end{large}
 \end{center}
-\begin{minipage}{0.2\linewidth}
-~\\
-~\\
-~\\
-~\\
-Hi bros this is a margin note
+\end{mdframed}
+\begin{minipage}{0.25\linewidth}
+
+\begin{flushright}
+	\section{\color{red}Per\color{black}sonal Details}
+    C-4  
+    Tagore Garden Extn.\\
+    New Delhi\\
+    110027\\
+    ~
+    \textbf{Contact}-\\
+    +91 9013307073\\
+    ~
+    \textbf{E-mail-}\\
+    \href{mailto:chchawla@yahoo.co.in}{chchawla@yahoo.co.in}
+    \textbf{LinkedIn-}\\
+    \href{http://bit.ly/2ioNlFC}{http://bit.ly/2ioNlFC}
+\end{flushright}
+\begin{center}
+\includegraphics[scale=0.095]{picture}
+\end{center}
 \end{minipage}
-\begin{minipage}{0.8\linewidth}
-\section{Career Objective}
+\begin{minipage}{0.75\linewidth}
+\section{\color{green}Car\color{black}eer Objective}
 Having happiness and being content in what you do is the most important thing for me. I have a passion for astronomy and astrophysics, thus I would be \textbf{working towards joining ISRO} and serving humanity.
 \end{minipage}
 \end{document}
